@@ -1,5 +1,3 @@
-package projectBoat;
-
 public class Coque {
 	private Integer idCoque = 2;
 	private String co1;
