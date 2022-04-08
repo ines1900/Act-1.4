@@ -1,5 +1,3 @@
-package projectBoat;
-
 public class Cabine {
 	private Integer idCabine = 3;
 	private String ca1;
