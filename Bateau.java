@@ -1,5 +1,3 @@
-package projectBoat;
-
 public class Bateau {
 	private Integer idBateau = 1;
 	private String b1;
@@ -22,9 +20,9 @@ public class Bateau {
 	}
 	
 	public String toString(Bateau bateau) {
-		return "Le bateau n° " + bateau.getIdBateau() + " est constitué de: \n" + "La coque n° " + 
-	bateau.getCoque().getIdCoque() + "\n La cabine n° " + bateau.getCabine().getIdCabine() + "\n Le pont n° " + bateau.getPont().getIdPont()
-	+ " est constitué de la Voile N° " + bateau.getPont().getVoile().getIdVoile(); 
+		return "Le bateau nÂ° " + bateau.getIdBateau() + " est constituÃ© de: \n" + "La coque nÂ° " + 
+	bateau.getCoque().getIdCoque() + "\n La cabine nÂ° " + bateau.getCabine().getIdCabine() + "\n Le pont nÂ° " + bateau.getPont().getIdPont()
+	+ " est constituÃ© de la Voile NÂ° " + bateau.getPont().getVoile().getIdVoile(); 
 	}
 
 	public Integer getIdBateau() {
